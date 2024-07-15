@@ -1,0 +1,3 @@
+com/typicode/jsonplaceholder/pages/UsersPage.class
+com/typicode/jsonplaceholder/utilities/ExtentReport.class
+com/typicode/jsonplaceholder/utilities/RestAssuredBuilder.class

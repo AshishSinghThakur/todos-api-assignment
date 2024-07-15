@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TOOD API Tests">
+	<listeners>
+		<listener class-name="com.typicode.jsonplaceholder.utilities.ExtentReport" />
+	</listeners>	
+    <test name="TODO API Tests">
+        <classes>
+            <class name="com.typicode.jsonplaceholder.tests.UserToDoTests"/>
+        </classes>
+    </test>
+</suite>
