@@ -1,8 +1,6 @@
-# OpenWeatherMap API Tests
+# FanCode Users toDos Tests
 
 This project contains api automated test to verify todo task completion of FanCode Users.
-
-## Setup
 
 ### Prerequisites
 
@@ -10,6 +8,9 @@ This project contains api automated test to verify todo task completion of FanCo
 - Maven
 - IDE (e.g., IntelliJ IDEA, Eclipse) with Maven support
 - Browsers (Chrome, firefox, etc.)
+  
+## Setup
+You need to clone the repository through command line using - ```git clone https://github.com/AshishSinghThakur/todos-api-assignment.git```
 
 ### Dependencies
 
@@ -23,13 +24,12 @@ This project contains api automated test to verify todo task completion of FanCo
    - Open your preferred IDE (e.g., IntelliJ IDEA, Eclipse) and import the project.
 
 2. **Run the tests:**
-     - Right-click on `testNG.xml`.
-     - Select TestNG Suite.
+     - Right-click on `testNG.xml`, Select TestNG Suite.
      - Using Maven (command line):
      `mvn clean test` or `mvn -DsuiteXmlFile=testng.xml test`
 
 4. **View Test Results:**
-   - Test results can be viewed by opening the `api-assignment/extent-reports.html' file in any browser.
+   - Test results can be viewed by opening the `extent-reports.html' file in any browser.
 
 ## Troubleshooting
 
