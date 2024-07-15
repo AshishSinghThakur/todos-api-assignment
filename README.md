@@ -21,15 +21,15 @@ You need to clone the repository through command line using - ```git clone https
 ## Running the Tests
 
 1. **Open the project in your IDE:**
-   - Open your preferred IDE (e.g., IntelliJ IDEA, Eclipse) and import the project.
+     - Open your preferred IDE (e.g., IntelliJ IDEA, Eclipse) and import the project.
 
 2. **Run the tests:**
      - Right-click on `testNG.xml`, Select TestNG Suite.
      - Using Maven (command line):
      `mvn clean test` or `mvn -DsuiteXmlFile=testng.xml test`
 
-4. **View Test Results:**
-   - Test results can be viewed by opening the `extent-reports.html' file in any browser.
+3. **View Test Results:**
+     - Test results can be viewed by opening the `extent-reports.html' file in any browser.
 
 ## Troubleshooting
 
